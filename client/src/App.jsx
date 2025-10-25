@@ -19,7 +19,7 @@ import { PlacesForm } from './pages/PlacesForm'
 import { MainPlace } from './pages/MainPlace'
 import { BookingsPages } from './pages/BookingsPages'
 import { SingleBooking } from './pages/SingleBooking'
-axios.defaults.baseURL='http://localhost:4000'
+axios.defaults.baseURL='https://hotel-booking-website-npbg.onrender.com'
 axios.defaults.withCredentials=true;
 function App() {
   const [count, setCount] = useState(0)

@@ -30,6 +30,7 @@ export const LoginPage = () => {
     return <Navigate to={'/'} />
   }
   return (
+    <div>
     <div className='mt-4 grow flex w-full md:w-[100%] items-center justify-center'>
         <div className=' min-h-[70vh] w-[100vw] md:w-[50vw] flex flex-col  border rounded-2xl shadow-lg shadow-black border-gray-500'>
         <div className='primary rounded-2xl md:w-[100%]'>
@@ -50,7 +51,7 @@ export const LoginPage = () => {
           
         </form>
         </div>
-
+        </div>
 
     </div>
   )

@@ -20,7 +20,7 @@ app.use('/uploadsprofile',express.static(__dirname+'/profile'))
 require('dotenv').config();
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:5173'
+    origin:'https://hotel-booking-website-nine-green.vercel.app/'
 }))
 app.use(cookieParser())
 const jwtsecret='Harshit14'
